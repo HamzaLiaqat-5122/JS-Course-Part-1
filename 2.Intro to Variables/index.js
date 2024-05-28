@@ -6,16 +6,16 @@
 
 // declare a variable
 
-var firstName = "Hamza";
+var firstName = "Hamza";    var lastName = "Liaqat";
 
 // use a variable
-console.log(firstName);
+console.log(firstName);   console.log(lastName);
 
 // change value
 
-firstName = "Mohid";
+firstName = "Mohid";     lastName = "Imran";
 
-console.log(firstName); 
+console.log(firstName);  console.log(lastName);
 
 // rules for naming variables
 

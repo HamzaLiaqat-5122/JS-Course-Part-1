@@ -1,5 +1,5 @@
 // ternary operator / conditional operator
-
+-
 // let age = 4;
 // let drink;
 
@@ -58,7 +58,7 @@ if (firstName[0] === "H" || age1 > 18) {
 // let userGuess = +prompt("Guess a number"); // prompt takes input as string
 // console.log(userGuess, typeof userGuess);
 
-//f(userGuess === winningNumber){
+// if(userGuess === winningNumber){
 // console.log("Your Guess is right!!");
 //} else{
 // if(userGuess < winningNumber){

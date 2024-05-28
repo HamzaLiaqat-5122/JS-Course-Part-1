@@ -2,7 +2,7 @@
 
 let firstName = "HamzaDj";
 
-// h   a  m  z  a  D  j
+// H   a  m  z  a  D  j
 // 0   1  2  3  4  5  6
 
 // console.log(firstName[6]);
@@ -44,6 +44,6 @@ console.log(newString.length);
 // start index
 // end index
 
-let brandNewString = firstName.slice(1,5); // 4th index will not be included
+let brandNewString = firstName.slice(1,5); // 5th index will not be included
 
 console.log(brandNewString);
