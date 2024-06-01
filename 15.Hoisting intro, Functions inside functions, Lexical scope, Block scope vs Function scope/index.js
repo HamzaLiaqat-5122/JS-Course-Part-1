@@ -96,7 +96,7 @@ function myApp() {
 
 myApp();
 
-// block scope vs function socpe
+// block scope vs function scope
 
 // let and const are block scope
 // var is function scope

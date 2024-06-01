@@ -214,6 +214,59 @@
 // const even = number => number % 2 === 0;
 // console.log(even(2));
 
-const firstChar = anyString => anyString[0];
-console.log(firstChar("hamza"));
+// const firstChar = anyString => anyString[0];
+// console.log(firstChar("hamza"));
 
+// Question 1: Sum of Multiples
+// Given an array of numbers, use the forEach method to calculate the sum of all the numbers that are multiples of 3 or 5.
+
+const numbers = [1, 3, 4, 5, 6, 9, 10, 12, 15, 20];
+let sum = 0;
+const threeAndFive = numbers.forEach((num) =>{
+    if(num % 3 === 0 || num % 5 === 0){
+       return sum += num
+    }
+})
+console.log(sum);
+
+
+
+// Question 2: Flatten Nested Arrays
+// You have an array of arrays. Use the forEach method to flatten this array into a single array.
+
+
+const nestedArray = [[1, 2, 3], [4, 5], [6, 7, 8, 9], [10]];
+
+const flattenedArray = [];
+
+nestedArray.forEach(subArray => subArray.forEach(item => flattenedArray.push(item)))
+console.log(flattenedArray);
+
+// Question 3: Transform Objects in an Array
+// Given an array of objects representing students with their names and scores, use the forEach method to transform this array into an array of strings in the format: "Name: [name], Score: [score]".
+
+
+const students = [
+    { name: 'Alice', score: 85 },
+    { name: 'Bob', score: 92 },
+    { name: 'Charlie', score: 88 },
+];
+
+const transformedArray = [];
+students.forEach(student => transformedArray.push(`Name: ${student.name}, Score: ${student.score}`));
+console.log(transformedArray);
+
+// Question 4: Count Occurrences
+// Given an array of strings, use the forEach method to count the occurrences of each string and store the result in an object.
+
+const fruits = ['apple', 'banana', 'orange', 'apple', 'orange', 'banana', 'banana'];
+let fruitsCount = {};
+fruits.forEach(fruit => {
+    if(fruitsCount[fruit]){
+        fruitsCount[fruit]++;
+    } else {
+        fruitsCount[fruit] = 1;
+    }
+});
+
+console.log(fruitsCount);
