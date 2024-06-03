@@ -81,7 +81,7 @@
 // splice method  // This also changes original array
 // start, delete, insert
 
-const myArray = ['item1', 'item2', 'item3']; 
+// const myArray = ['item1', 'item2', 'item3']; 
 
 // delete
 // const myNewArray = myArray.splice(1, 1,)
@@ -96,6 +96,6 @@ const myArray = ['item1', 'item2', 'item3'];
 
 // insert and delete simultaneously
 
-const deletedItem = myArray.splice(1, 2, "item3", "item4")
-console.log(myArray);
-console.log(deletedItem);
+// const deletedItem = myArray.splice(1, 2, "item3", "item4")
+// console.log(myArray);
+// console.log(deletedItem);

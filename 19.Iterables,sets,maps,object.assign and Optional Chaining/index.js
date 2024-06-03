@@ -175,3 +175,30 @@
 // console.log(userInfo.get(person1).gender);
 // console.log(userInfo.get(person2).gender);
 
+// Clone using Object.assign
+
+// const obj1 = {
+//     key1 : "value1",
+//     key2 : "value2"
+// }
+// console.log(obj1.key1);
+// // const obj2 = {...obj1};
+//  const obj2 = Object.assign({}, obj1); // This method is also used for cloning.
+// obj1.key3 = "value3"
+// console.log(obj1);
+// console.log(obj2);
+
+// Optional Chaining
+const user = {
+    firstName: "hamza",
+    // address : {houseNumber : 1234},
+}
+
+// console.log(user.firstName);
+// console.log(user.address); // it returns undefined when address is commented
+// console.log(user.address.houseNumber); it returns error
+
+// we want that it does not produce error it gives undefined so we will do this
+
+console.log(user?.firstName); // if user; then it will return undefined not error
+console.log(user?.address?.houseNumber); // this question mark(?) is used when we have to get undefined and not the error.

@@ -157,7 +157,7 @@
 // it mutates original array
 
 // ASCII TABLE 
-//char : ascii value
+// char : ascii value
 
 
 // '0' : 48
