@@ -63,7 +63,7 @@ hello();
 
 // you can add your own properties in functions
 
-hello.myOwnProperty = "vey unique value";
+hello.myOwnProperty = "very unique value";
 console.log(hello.myOwnProperty);
 // in this way function behaves like object and give key value pair
 
@@ -84,6 +84,7 @@ hello.prototype.sing = function(){
 };
 console.log(hello.prototype.sing());
 
-
 // __proto__ and prototype have no connection right now but we can make connection.
+
+// this.age is very good it gives us the age of this and is very affordable
 

@@ -94,16 +94,13 @@
 // const myArray = [...mySet];
 // const myArray2 = Array.from(mySet);
 
-// const myArray = [...mySet];
-// const myArray2 = Array.from(mySet);
-
 // Maps
 // map is an iterable
 
 // store data in ordered fashion
 
 // store key value pair (like object)
-// duplicate keys are not allowed like objects
+// duplicate keys are not allowed unlike objects
 
 
 // difference between maps and objects
